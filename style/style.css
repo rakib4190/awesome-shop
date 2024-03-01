@@ -100,7 +100,29 @@ section {
 }
 
 .social-icon {
+    margin-bottom: 15px;
+}
+
+.social-icon .fa-brands {
+    font-size: 2.5rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.social-icon .fa-twitter {
+    color: #1DA1F2;
+}
+
+.social-icon .fa-facebook {
+    color: blue;
+}
+
+.social-icon .fa-youtube {
     color: red;
+}
+
+.social-icon .fa-instagram {
+    color: rgb(243, 155, 170);
 }
 
 .btn {
@@ -108,6 +130,7 @@ section {
     border-radius: 8px;
     border: 2px solid #e893cf;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .banner-images {
