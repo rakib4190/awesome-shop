@@ -67,6 +67,58 @@ nav ul li a {
     font-weight: 400;
 }
 
+/* banner styles */
+section {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.banner-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    background: #e6e9eb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner-content {
+    width: 50%;
+    text-align: center;
+}
+
+.banner-content h1 {
+    background: linear-gradient(45deg, #e893cf, #9376e0);
+    background-clip: text;
+    color: transparent;
+    font-size: 3.75rem;
+}
+
+.banner-content h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
+
+.social-icon {
+    color: red;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #e893cf;
+}
+
+.banner-images {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.banner-images img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 /* ======== responsive design ====== */
 /* style for mobile devices */
 @media screen and (max-width:576px) {
@@ -75,6 +127,15 @@ nav ul li a {
     .nav-logo,
     nav ul {
         flex-direction: column;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content,
+    .banner-images {
+        width: 100%;
     }
 
 }
@@ -87,6 +148,19 @@ nav ul li a {
 
     nav ul {
         margin-top: 10px;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-content,
+    .banner-images {
+        width: 100%;
+    }
+
+    .banner-images {
+        margin-top: 20px;
     }
 
 }
