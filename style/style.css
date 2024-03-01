@@ -188,6 +188,29 @@ section {
 
 }
 
+.about-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #e6e9eb;
+    border-radius: 8px;
+}
+
+.about-images,
+.about-content {
+    width: 50%;
+}
+
+.about-images img {
+    width: 100%;
+    border-radius: 8px;
+}
+
 
 /* ======== responsive design ====== */
 /* style for mobile devices */
@@ -199,12 +222,15 @@ section {
         flex-direction: column;
     }
 
-    .banner-container {
+    .banner-container,
+    .about-container {
         flex-direction: column-reverse;
     }
 
     .banner-content,
-    .banner-images {
+    .banner-images,
+    .about-content,
+    .about-images {
         width: 100%;
     }
 
@@ -214,6 +240,9 @@ section {
         margin: 0 20px;
     }
 
+    .about-container {
+        gap: 20px;
+    }
 }
 
 /* style for medium devices */
@@ -226,12 +255,15 @@ section {
         margin-top: 10px;
     }
 
-    .banner-container {
+    .banner-container,
+    .about-container {
         flex-direction: column;
     }
 
     .banner-content,
-    .banner-images {
+    .banner-images,
+    .about-container,
+    .about-images {
         width: 100%;
     }
 
