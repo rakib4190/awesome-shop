@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 /* banner styles */
-section {
+main {
     max-width: 1250px;
     margin: 0 auto;
 }
@@ -189,14 +189,12 @@ section {
 }
 
 .about-container {
-    max-width: 1250px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 100px;
     margin-top: 50px;
-    padding: 50px;
+    padding: 20px;
     background-color: #e6e9eb;
     border-radius: 8px;
 }
@@ -211,6 +209,17 @@ section {
     border-radius: 8px;
 }
 
+footer {
+    max-width: 1250px;
+    margin: 50px auto;
+    background-color: #e6e9eb;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer p {
+    padding: 20px;
+}
 
 /* ======== responsive design ====== */
 /* style for mobile devices */
